@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(154, 187, 187);
+}
+.section{
+    margin-top: 2vh;
+    text-align: center;
+}
+.opcao{
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+}
+.regiLabel {
+    width: 30%;
+}
+.opcao:hover{
+    text-decoration: underline;
+    color: black;
+    
+}
+label{
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+#tres{
+    text-decoration: underline;
+}
+#registropage{
+    margin-top:4vh ;
+    
+}
+.giro{
+    animation: girar 7s linear infinite;
+}
+
+@keyframes girar {
+	0% {
+		transform: rotate(0);
+	}
+    
+	100% {
+		transform: rotate(360deg);
+	}
+    
+}
